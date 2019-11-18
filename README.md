@@ -2,6 +2,12 @@
 
 These repo contains the finished programmatic solution of the Infinite Recursive Rectangle.
 
+## Screeshots
+
+![alt text](./public/images/1.png "W:20 H:20 P:4")
+![alt text](./public/images/2.png "W:40 H:40 P:6")
+![alt text](./public/images/3.png "W:60 H:60 P:6")
+
 ## Instructions
 1. Clone repo
 2. Run `npm install`
