@@ -1,12 +1,6 @@
-![Screenshot](https://res.cloudinary.com/turnup/image/upload/v1526512881/homepage-cards.png)
+# Infinite recursive shape
 
-# First Node Website Tutorial
-
-These repo contains the finished code for the tutorial on building a simple Node.js website with Express and Pug.
-
-You can [access the tutorial here](https://freshman.tech/learn-node).
-
-[Live demo](https://node-express-pug.herokuapp.com/)
+These repo contains the finished programmatic solution of the Infinite Recursive Rectangle.
 
 ## Instructions
 1. Clone repo
@@ -18,6 +12,6 @@ You can [access the tutorial here](https://freshman.tech/learn-node).
 
 ## Getting Help
 
-Need some help? Leave a comment on the tutorial — this repo is meant as a place to grab the finished code and isn't a support channel.
+Need some help? Leave a comment or drop me email on karanp41@gmail.com.
 
 

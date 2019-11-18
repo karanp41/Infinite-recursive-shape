@@ -1,13 +1,21 @@
 extends default
 
 block content
+  div.container.form-horizontal
+    div.form-group
+      label(for='width') Width:
+      input#width.form-control(type='text', placeholder='Enter Width >= 20' name='width')
+    div.form-group
+      label(for='height') Height:
+      input#height.form-control(type='height', placeholder='Enter Height >= 20' name='height')
+    div.form-group
+      label(for='padding') Padding:
+      input#padding.form-control(type='text', placeholder='Enter Padding >= 4' name='padding')
+    button.btn.btn-success.btn-block(onclick='GardenPattern.printPattern()') Send
+  
+  br
+
   div.container
-    each person in people
-      div.person
-        div.person-image(style=`background: url('/images/${person.imgSrc}') top center
-        no-repeat; background-size: cover;`)
-        h2.person-name
-          | #{person.firstname} #{person.lastname}
-        a(href=`/profile?id=${person.id}`)
-          | View Profile
+    div#pattern.pattern
+  
 
